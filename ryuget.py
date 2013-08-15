@@ -1,8 +1,9 @@
 import os
 
 os.chdir('/your/dir/path/of/choice/')
+file = "list"
 
-list = [i.strip() for i in open("list").readlines()]
+list = [i.strip() for i in open(file).readlines()]
 
 
 for i in range(len(list)):
